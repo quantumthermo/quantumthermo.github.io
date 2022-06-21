@@ -34,6 +34,7 @@ header #title {
   text-decoration: none;
   color: black;
   margin-left: 1.5rem;
+  padding: 1rem 0;
   font-weight: bold;
   color: rgb(105, 105, 105);
   transition-duration: .5s;
@@ -49,7 +50,7 @@ header #title {
   content: '';
   position: absolute;
   left: 0;
-  bottom: -6px;
+  bottom: 4px;
   height: 4px;
   border-radius: 2px;
   background-color: #ff4d4d;
