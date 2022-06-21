@@ -38,7 +38,7 @@ header #title {
   color: rgb(105, 105, 105);
   transition-duration: .5s;
 }
-.nav a:hover {
+.nav a:hover{
   color: #ff4d4d;
 }
 .section {
@@ -55,15 +55,14 @@ main #home {
 ul li {list-style: none;}
 .swiper-wrapper {
   position: relative;
-
   width: 1000px;
   height: 200px;
   overflow: hidden;
+  z-index: -1;
 }
 
 .imgs-list,
 .imgs-list li {
-  z-index: -1;
   width: 100%;
   height: 100%;
 }
@@ -85,7 +84,6 @@ img {
   position: absolute;
   bottom: 6px;
   width: 100%;
-  z-index: -1;
 }
 
 .dot {
