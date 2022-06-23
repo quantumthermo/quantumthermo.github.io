@@ -1,0 +1,27 @@
+.member {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.member .avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+}
+.member .avatar img{
+  width: 10rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px #ced6e0,
+              0 2px 10px #ced6e0,
+              0 2px 10px #ced6e0,
+              0 2px 10px #ced6e0;
+}
+.information h3 {
+  color: rgb(149, 149, 149);
+}
+.information .research {
+  font-weight: normal;
+  color: black;
+}
