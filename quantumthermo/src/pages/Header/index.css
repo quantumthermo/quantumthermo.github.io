@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'RobotoCondensed Light';
+	src: url('../../static/font/RobotoCondensed-Light-5.ttf') format('woff2');
+}
+header {
+  position: relative;
+  margin-bottom: 1rem;
+  padding: 0 2rem 1rem 2rem;
+  position: sticky;
+  top: 0;
+  height: 25rem;
+  box-shadow: 0 2px 20px #dcdde1;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: 'RobotoCondensed Light';
+  color: #2f3542;
+  background: linear-gradient(180deg,transparent 0 80%,rgba(255,255,255,0.6) 80% 100%) center/cover,
+              url('../../static/background.webp') center/cover no-repeat;
+}
+header #title {
+  font-weight: bolder;
+  font-size: 40px;
+  min-width: 400px;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  flex-wrap: nowrap;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  margin-left: 1.5rem;
+  padding: 1rem 0;
+  transition-duration: .3s;
+}
+.nav a:hover{
+  color: #ff4d4d;
+}
+.nav a {
+  position: relative;
+}
+.nav a::after {
+  /* display: none; */
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 6px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #ff4d4d;
+  transition: width .3s linear;
+  width: 0;
+}
+.nav .active {
+  color: #ff4d4d;
+}
+.nav .active::after {
+  width: 100%;
+  background-color: #ff4d4d;
+  display: inline-block;
+}
