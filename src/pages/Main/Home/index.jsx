@@ -1,9 +1,10 @@
 import React from 'react'
+import './index.css'
 
 export default function Home() {
   return (
-    <div>
-      home page
-    </div>
+    <section className='home'>
+      HOME
+    </section>
   )
 }

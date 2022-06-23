@@ -1,7 +1,9 @@
 import React from 'react'
-
+import './index.css'
 export default function Open() {
   return (
-    <div>Open</div>
+    <section className='open'>
+      OPEN
+    </section>
   )
 }
