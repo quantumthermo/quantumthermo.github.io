@@ -7,7 +7,7 @@ export default function Member() {
     <section className='member'>
       <div className="avatar">
         <img src={mentorAvatar} alt="mentor avatar" />
-        <h2>GENTARO WATANABE <span>Ph.D.</span> </h2>
+        <h2>GENTARO WATANABE</h2>
       </div>
       <div className='information'>
         <h3>Grop Leader</h3>
