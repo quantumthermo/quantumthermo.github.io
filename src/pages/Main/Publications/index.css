@@ -1,3 +1,23 @@
 .publications {
   height: 600px;
+  line-height: 2rem;
+}
+.publications-title {
+  margin: 4rem;
+  text-align: center;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ff4d4d;
+}
+.publications-kind {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #57606f;
+}.publications ul {
+  list-style-type: none;
+}
+.publications li{
+  margin-bottom: 2rem;
 }

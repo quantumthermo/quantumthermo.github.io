@@ -1,5 +1,5 @@
 import React from 'react'
-import mentorAvatar from '../../../static/mentor-avatar.jpg'
+import mentorAvatar from '../../../static/images/mentor-avatar.jpg'
 import './index.css'
 
 export default function Member() {

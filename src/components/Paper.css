@@ -1,0 +1,18 @@
+.title {
+  font-family: 'RobotoCondensed Light';
+  font-size: 1.4rem;
+}
+.author {
+  font-style: italic;
+  color: #596275;
+}
+.link a{
+  margin-right: 3rem;
+  font-weight: bold;
+  color: #3c40c6;
+  text-decoration: none;
+  transition: all .5s;
+}
+.link a:hover {
+  color: #4bcffa;
+}

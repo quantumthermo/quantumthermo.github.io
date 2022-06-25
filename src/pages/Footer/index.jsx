@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import physics from '../../static/physics.png'
+import physics from '../../static/images/physics.png'
 
 export default function Footer() {
   return (
