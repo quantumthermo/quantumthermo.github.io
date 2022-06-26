@@ -5,10 +5,10 @@ import './index.css'
 
 export default function Publications() {
   const { representative, submitted, recent } = publication
-  console.log(representative, submitted, recent);
+  // console.log(representative, submitted, recent);
   return (
     <section className='publications'>
-      <p className='publications-title'>PUBLICATIONS</p>
+      <p className='nav-item-title'>PUBLICATIONS</p>
       <p className='publications-kind'>Representive Papers</p>
       <ul>
         {representative.map(paper => <Paper key={paper.id} {...paper} />)}

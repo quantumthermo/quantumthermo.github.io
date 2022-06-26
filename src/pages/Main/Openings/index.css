@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Helvetica-Neue';
+	src: url('../../../static/font/Helvetica-Neue-2.ttf') format('woff2');
+}
+.openings {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.4rem;
+}
+.openings-kind {
+  margin-bottom: 1rem;
+  font-family: 'RobotoCondensed-3';
+  font-size: 2rem;
+  font-weight: bold;
+  color: #636e72;
+}
+.paragraph {
+  text-align: justify;
+  margin-bottom: 2rem;
+  font-family: 'Helvetica-Neue';
+}

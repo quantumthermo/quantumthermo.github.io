@@ -3,7 +3,7 @@ import Home from "../pages/Main/Home"
 import Research from "../pages/Main/Research"
 import Member from "../pages/Main/Member"
 import Publications from "../pages/Main/Publications"
-import Open from "../pages/Main/Open"
+import Openings from "../pages/Main/Openings"
 import Links from "../pages/Main/Links"
 //路由表
  const routes = [
@@ -24,8 +24,8 @@ import Links from "../pages/Main/Links"
     element: <Publications/>,
   },
   {
-    path: '/open',
-    element: <Open/>,
+    path: '/openings',
+    element: <Openings/>,
   },
   {
     path: '/links',

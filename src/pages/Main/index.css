@@ -2,13 +2,17 @@
 	font-family: 'RobotoCondensed Light';
 	src: url('../../static/font/RobotoCondensed-Light-5.ttf') format('woff2');
 }
+@font-face {
+	font-family: 'RobotoCondensed-3';
+	src: url('../../static/font/Roboto-Condensed-3.ttf') format('woff2');
+}
 main {
   position: relative;
   top: -6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex: 1;
 }
 .header-info{
@@ -23,14 +27,14 @@ main {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  font-family: 'RobotoCondensed Light';
+  font-family: 'RobotoCondensed-3';
   color: #2f3542;
   background-color: rgba(255,255,255,0.7);
               
 }
 .header-info #title {
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 3rem;
   min-width: 400px;
 }
 .header-info nav {
@@ -44,8 +48,9 @@ main {
 }
 .nav a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.2rem;
   color: black;
+  font-family: 'RobotoCondensed Light';
   font-weight: bold;
   margin-left: 1.5rem;
   padding: 1rem 0;
@@ -76,4 +81,13 @@ main {
   width: 100%;
   background-color: #ff4d4d;
   display: inline-block;
+}
+/* 路由内容的css */
+.nav-item-title {
+  margin: 4rem;
+  text-align: center;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ff4d4d;
 }

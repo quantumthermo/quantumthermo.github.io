@@ -1,5 +1,5 @@
 import React from 'react'
-import {useRoutes,NavLink} from 'react-router-dom'
+import { useRoutes, NavLink } from 'react-router-dom'
 import routes from '../../routes'
 import './index.css'
 
@@ -15,14 +15,13 @@ export default function Main() {
             <li><NavLink className='nav-item' to='/research'>RESEARCH</NavLink></li>
             <li><NavLink className='nav-item' to='/member'>MEMBER</NavLink></li>
             <li><NavLink className='nav-item' to='/publications'>PUBLICATIONS</NavLink></li>
-            <li><NavLink className='nav-item' to='/open'>OPEN</NavLink></li>
+            <li><NavLink className='nav-item' to='/openings'>OPENINGS</NavLink></li>
             <li><NavLink className='nav-item' to='/links'>LINKS</NavLink></li>
           </ul>
         </nav>
       </section>
-      <section>
-        {element}
-      </section>
+      {/* 路由展示区域 */}
+      {element}
     </main>
   )
 }
