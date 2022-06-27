@@ -7,4 +7,5 @@ git push
 npm run build
 #取消SSL认证
 git config --global http.sslVerify "false"
+git config --global https.sslVerify "false"
 npm run deploy
