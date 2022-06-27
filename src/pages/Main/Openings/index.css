@@ -1,9 +1,4 @@
-@font-face {
-	font-family: 'Helvetica-Neue';
-	src: url('../../../static/font/Helvetica-Neue-2.ttf') format('woff2');
-}
 .openings {
-  /* width: 60%; */
   margin: 1rem 15rem;
   display: flex;
   flex-direction: column;
