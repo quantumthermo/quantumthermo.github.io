@@ -3,18 +3,12 @@
 	src: url('../../../static/font/Helvetica-Neue-2.ttf') format('woff2');
 }
 .openings {
-  width: 60%;
+  /* width: 60%; */
+  margin: 1rem 15rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   line-height: 1.4rem;
-}
-.openings-kind {
-  margin-bottom: 1rem;
-  font-family: 'RobotoCondensed-3';
-  font-size: 2rem;
-  font-weight: bold;
-  color: #636e72;
 }
 .paragraph {
   text-align: justify;

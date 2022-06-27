@@ -6,11 +6,11 @@ export default function Openings() {
   return (
     <section className='openings'>
       <p className='nav-item-title'>OPENINGS</p>
-      <p className='openings-kind'>Postdoctoral Positions</p>
+      <p className='kind-title'>Postdoctoral Positions</p>
       {
         postdoctoral_positions.map(p=><p className='paragraph' key={p.id}>{p.content.replace(/\r|\n/ig,"")}</p>)
       }
-      <p className='openings-kind'>Graduate Students</p>
+      <p className='kind-title'>Graduate Students</p>
       {
         graduate_students.map(p=><p className='paragraph' key={p.id}>{p.content.replace(/\r|\n/ig,"")}</p>)
       }

@@ -1,12 +1,9 @@
 .publications {
   height: 600px;
   line-height: 2rem;
-}
-.publications-kind {
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #57606f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .publications ul {
   list-style-type: none;

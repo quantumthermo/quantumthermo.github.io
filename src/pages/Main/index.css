@@ -6,6 +6,7 @@
 	font-family: 'RobotoCondensed-3';
 	src: url('../../static/font/Roboto-Condensed-3.ttf') format('woff2');
 }
+
 main {
   position: relative;
   top: -6rem;
@@ -35,7 +36,7 @@ main {
 .header-info #title {
   font-weight: bolder;
   font-size: 3rem;
-  min-width: 400px;
+  min-width: 30rem;
 }
 .header-info nav {
   flex: 1;
@@ -91,3 +92,21 @@ main {
   font-weight: bold;
   color: #ff4d4d;
 }
+.kind-title {
+  /* position: relative;
+  left: 2rem; */
+  margin-bottom: 1rem;
+  font-family: 'RobotoCondensed-3';
+  font-size: 2rem;
+  font-weight: bold;
+  color: #636e72;
+}
+/* .kind-title::before {
+  content: '';
+  position: absolute;
+  left: -2rem;top: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  background-color: #636e72;
+  transform: rotate(45deg);
+} */

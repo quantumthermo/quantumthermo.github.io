@@ -8,7 +8,7 @@ const publications = {
       title: "Quantum Performance of Thermal Machines over Many Cycles",
       magzine: "Phys. Rev. Lett. 118, 050601 (2017)",
       magzineUrl: "",
-      arXiv: "161205586 [Editors' Suggestion; features in APS Physics Synopsis]. ",
+      arXiv: "161205586 [Editors' Suggestion; features in APS Physics Synopsis]",
       arXivUrl: ''
     },
     {

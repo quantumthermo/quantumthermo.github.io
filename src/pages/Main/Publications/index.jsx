@@ -9,18 +9,18 @@ export default function Publications() {
   return (
     <section className='publications'>
       <p className='nav-item-title'>PUBLICATIONS</p>
-      <p className='publications-kind'>Representive Papers</p>
+      <p className='kind-title'>Representive Papers</p>
       <ul>
-        {representative.map(paper => <Paper key={paper.id} {...paper} />)}
+        {representative.map((paper,index) => <Paper key={paper.id} {...paper} index={index}/>)}
       </ul>
       <hr />
-      <p className='publications-kind'>Submitted Papers</p>
+      <p className='kind-title'>Submitted Papers</p>
       <p>To Be Completed...</p>
       <ul>
         {submitted.map(paper => <Paper key={paper.id} {...paper} />)}
       </ul>
       <hr />
-      <p className='publications-kind'>Recent Papers</p>
+      <p className='kind-title'>Recent Papers</p>
       <p>To Be Completed...</p>
       <ul>
         {recent.map(paper => <Paper key={paper.id} {...paper} />)}

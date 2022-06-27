@@ -1,10 +1,12 @@
 import React from 'react'
-import { useRoutes, NavLink } from 'react-router-dom'
+import { useRoutes, NavLink, useLocation } from 'react-router-dom'
 import routes from '../../routes'
 import './index.css'
 
 export default function Main() {
   const element = useRoutes(routes)
+  const location = useLocation()
+  console.log(location);
   return (
     <main>
       <section className='header-info'>
