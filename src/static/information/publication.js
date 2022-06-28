@@ -19,6 +19,15 @@ const publications = {
       magzineUrl: "",
       arXiv: "1704.08859",
       arXivUrl: ''
+    },
+    {
+      id: "003",
+      author: "Gentaro Watanabe and C. J. Pethick",
+      title: "Superfluid Density of Neutrons in the Inner Crust of Neutron Stars: New Life for Pulsar Glitch Models",
+      magzine: "Phys. Rev. Lett. 119, 062701 (2017)",
+      magzineUrl: "",
+      arXiv: "1704.08859",
+      arXivUrl: ''
     }
   ],
 

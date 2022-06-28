@@ -36,7 +36,7 @@ main {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  font-family: 'RobotoCondensed-3';
+  font-family: 'RobotoCondensed-3',Arial, Helvetica, sans-serif;
   color: #2f3542;
   background-color: rgba(255,255,255,0.7);
               
@@ -59,7 +59,7 @@ main {
   text-decoration: none;
   font-size: 1.2rem;
   color: black;
-  font-family: 'RobotoCondensed Light';
+  font-family: 'RobotoCondensed Light', Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin-left: 1.5rem;
   padding: 1rem 0;
@@ -72,7 +72,6 @@ main {
   position: relative;
 }
 .nav a::after {
-  /* display: none; */
   content: '';
   position: absolute;
   left: 0;
@@ -95,14 +94,14 @@ main {
 .nav-item-title {
   margin: 6rem;
   text-align: center;
-  /* font-family: 'Aqum-2'; */
+  font-family: 'Helvetica-Neue';
   font-size: 3rem;
   font-weight: bold;
   color: #ff4d4d;
 }
 .kind-title {
-  margin-bottom: 3rem;
-  font-family: 'RobotoCondensed-3';
+  margin-bottom: 2rem;
+  font-family: 'RobotoCondensed-3',Arial, Helvetica, sans-serif;
   font-size: 2rem;
   font-weight: bold;
   color: #636e72;

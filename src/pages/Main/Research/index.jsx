@@ -3,7 +3,7 @@ import './index.css'
 export default function Research() {
   return (
     <section className='research'>
-      RESEARCH
+      <p className='nav-item-title'>RESEARCH</p>
     </section>
   )
 }
