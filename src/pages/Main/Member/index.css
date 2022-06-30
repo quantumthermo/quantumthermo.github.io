@@ -20,14 +20,6 @@
   font-size: 1.2rem;
   font-weight: normal;
 }
-.member .avatar h2::after {
-  content: 'Ph.D';
-  font-size: 0.6rem;
-  position: absolute;
-  background-color: beige;
-  border-radius: 0.3rem;
-  padding: 2px 4px;
-}
 .information {
   display: flex;
   flex-direction: column;
