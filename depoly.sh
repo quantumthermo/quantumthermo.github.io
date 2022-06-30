@@ -3,6 +3,7 @@
 #取消SSL认证
 git config --global http.sslVerify "false"
 git config --global https.sslVerify "false"
+git config --global --add remote.origin.proxy ""
 npm run deploy
 
 
