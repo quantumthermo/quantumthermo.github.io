@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.23bec540.css",
+    "main.css": "/static/css/main.799c8bc7.css",
     "main.js": "/static/js/main.f07eea33.js",
     "static/media/Helvetica-Neue-2.ttf": "/static/media/Helvetica-Neue-2.eeb3ba23dddbf1117908.ttf",
     "static/media/mentor-avatar.jpg": "/static/media/mentor-avatar.300ffbb4c44174de8dfd.jpg",
@@ -10,11 +10,11 @@
     "static/media/Aqum-2-Classic-2.otf": "/static/media/Aqum-2-Classic-2.4e6cc3eca3a8bb1e2aaa.otf",
     "static/media/physics.png": "/static/media/physics.48a57c364249aeb59205.png",
     "index.html": "/index.html",
-    "main.23bec540.css.map": "/static/css/main.23bec540.css.map",
+    "main.799c8bc7.css.map": "/static/css/main.799c8bc7.css.map",
     "main.f07eea33.js.map": "/static/js/main.f07eea33.js.map"
   },
   "entrypoints": [
-    "static/css/main.23bec540.css",
+    "static/css/main.799c8bc7.css",
     "static/js/main.f07eea33.js"
   ]
 }
