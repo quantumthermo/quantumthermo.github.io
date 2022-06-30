@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.799c8bc7.css",
-    "main.js": "/static/js/main.f07eea33.js",
+    "main.js": "/static/js/main.f50277c2.js",
     "static/media/Helvetica-Neue-2.ttf": "/static/media/Helvetica-Neue-2.eeb3ba23dddbf1117908.ttf",
     "static/media/mentor-avatar.jpg": "/static/media/mentor-avatar.300ffbb4c44174de8dfd.jpg",
     "static/media/Roboto-Condensed-3.ttf": "/static/media/Roboto-Condensed-3.cf25708b9d598bfbb307.ttf",
@@ -11,10 +11,10 @@
     "static/media/physics.png": "/static/media/physics.48a57c364249aeb59205.png",
     "index.html": "/index.html",
     "main.799c8bc7.css.map": "/static/css/main.799c8bc7.css.map",
-    "main.f07eea33.js.map": "/static/js/main.f07eea33.js.map"
+    "main.f50277c2.js.map": "/static/js/main.f50277c2.js.map"
   },
   "entrypoints": [
     "static/css/main.799c8bc7.css",
-    "static/js/main.f07eea33.js"
+    "static/js/main.f50277c2.js"
   ]
 }
