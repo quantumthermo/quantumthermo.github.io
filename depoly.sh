@@ -1,8 +1,8 @@
 #打包推送到github-pages
-#npm run build
+npm run build
 #取消SSL认证
-git config --global --unset http.proxy
-git config --global --unset https.proxy
+git config --global http.sslVerify "false"
+git config --global https.sslVerify "false"
 
 npm run deploy
 
