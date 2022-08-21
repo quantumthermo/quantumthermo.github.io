@@ -1,6 +1,6 @@
 
 const publications = {
-  //Representative Papers
+  // Representative Papers
   representative: [
     {
       id: "001",
@@ -27,7 +27,7 @@ const publications = {
 
   ],
 
-  //Recent Publications
+  // Recent Publications
   recent: [
 
   ]
