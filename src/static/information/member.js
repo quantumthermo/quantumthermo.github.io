@@ -1,10 +1,10 @@
 const member = [
   {
     id: '001',
-    name: '',
+    name: 'Guo-Hua Xu',
     avatar: '',
-    status: '',
+    status: 'PhD student',
     introduction: '',
-    email: ''
+    email: 'guohuax@zju.edu.cn'
   }
 ]
