@@ -37,6 +37,87 @@ const publications = {
       magzineUrl: "https://doi.org/10.1103/PhysRevE.89.052116",
       arXiv: "1402.5704",
       arXivUrl: 'https://doi.org/10.48550/arXiv.1402.5704'
+    },
+    {
+      id: "005",
+      author: "Gentaro Watanabe, B. Prasanna Venkatesh, Peter Talkner, Michele Campisi, and Peter Hanggi",
+      title: "Quantum fluctuation theorem and generalized measurements during the force protocol",
+      magzine: "Phys. Rev. E 89, 032114 (2014)",
+      magzineUrl: "https://doi.org/10.1103/PhysRevE.89.032114",
+      arXiv: "1312.7104",
+      arXivUrl: "https://arxiv.org/abs/1312.7104"
+    },
+    {
+      id: "006",
+      author: "Gentaro Watanabe and Harri Makela",
+      title: "Dissipation-induced squeezing",
+      magzine: "Phys. Rev. A 85, 023604 (2012)",
+      magzineUrl: "https://doi.org/10.1103/PhysRevA.85.023604",
+      arXiv: "1101.4845",
+      arXivUrl: "https://arxiv.org/abs/1101.4845"
+    },
+    {
+      id: "007",
+      author: "Gentaro Watanabe, Sukjin Yoon, and Franco Dalfovo",
+      title: "Swallowtail Band Structure of the Superfuid Fermi Gas in an Optical Lattice",
+      magzine: "Phys. Rev. Lett. 107, 270404 (2011)",
+      magzineUrl: "https://doi.org/10.1103/PhysRevLett.107.270404",
+      arXiv: "1108.0042",
+      arXivUrl: "https://arxiv.org/abs/1108.0042"
+    },
+    {
+      id: "008",
+      author: " Gentaro Watanabe, F. Dalfovo, F. Piazza, L. P. Pitaevskii, and S. Stringari",
+      title: "Critical velocity of superfluid flow through single-barrier and periodic potentials",
+      magzine: "Phys. Rev. A 80, 053602 (2009)",
+      magzineUrl: "https://doi.org/10.1103/PhysRevA.80.053602",
+      arXiv: "0907.0621",
+      arXivUrl: "https://arxiv.org/abs/0907.0621"
+    },
+    {
+      id: "009",
+      author: "Gentaro Watanabe, Hidetaka Sonoda, Toshiki Maruyama, Katsuhiko Sato, Kenji Yasuoka, and Toshikazu Ebisuzaki",
+      title: "Formation of Nuclear 'Pasta' in Supernovae",
+      magzine: "Phys.Rev.Lett.103:121101 (2009)",
+      magzineUrl: "https://doi.org/10.1103/PhysRevLett.103.121101",
+      arXiv: "0904.0512",
+      arXivUrl: "https://doi.org/10.48550/arXiv.0904.0512"
+    },
+    {
+      id: "010",
+      author: " Gentaro Watanabe and C. J. Pethick",
+      title: "Reversal of the circulation of a vortex by quantum tunneling in trapped Bose systems",
+      magzine: "Phys. Rev. A 76, 021605(R) (2007)",
+      magzineUrl: "https://doi.org/10.1103/PhysRevA.76.021605",
+      arXiv: "cond-mat/0701270",
+      arXivUrl: "https://doi.org/10.48550/arXiv.cond-mat/0701270"
+    },
+    {
+      id: "011",
+      author: "Gentaro Watanabe, Toshiki Maruyama, Katsuhiko Sato, Kenji Yasuoka, and Toshikazu Ebisuzaki",
+      title: "Simulation of Transitions between 'Pasta' Phases in Dense Matter",
+      magzine: "Phys.Rev.Lett. 94, 031101 (2005)",
+      magzineUrl: "https://doi.org/10.1103/PhysRevLett.94.031101",
+      arXiv: "nucl-th/0408061",
+      arXivUrl: "https://arxiv.org/abs/nucl-th/0408061"
+    },
+    {
+      id: "012",
+      author: "Gentaro Watanabe, Gordon Baym, and C. J. Pethick",
+      title: "Landau Levels and the Thomas-Fermi Structure of Rapidly Rotating Bose-Einstein Condensates",
+      magzine: "Phys.Rev.Lett. 93, 190401 (2004)",
+      magzineUrl: "https://doi.org/10.1103/PhysRevLett.93.190401",
+      arXiv: "cond-mat/0403470",
+      arXivUrl: "https://arxiv.org/abs/cond-mat/0403470"
+    },
+    {
+      id: "013",
+      author: "Gentaro Watanabe, Katsuhiko Sato, Kenji Yasuoka, and Toshikazu Ebisuzaki",
+      title: "Structure of cold nuclear matter at subnuclear densities by quantum molecular dynamics",
+      magzine: "Phys. Rev. C 68, 035806 (2003)",
+      magzineUrl: "https://doi.org/10.1103/PhysRevC.68.035806",
+      arXiv: "nucl-th/0308007",
+      arXivUrl: "https://doi.org/10.48550/arXiv.nucl-th/0308007"
     }
   ],
 
