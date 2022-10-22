@@ -1,0 +1,36 @@
+.title {
+  color: #333333;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.author {
+  font-size: 1rem;
+  font-style: italic;
+  /* font-weight: bold; */
+  color: gray;
+}
+.link {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.link .magzine {
+  width: 25rem;
+}
+.link a{
+  font-weight: bold;
+  color: #227093;
+  text-decoration: none;
+  transition: all .3s;
+}
+.link a:hover {
+  color: #34ace0;
+}
+.link a .arxiv {
+  color: #333333;
+}
+@media screen and (max-width: 600px) {
+  .link {
+    flex-direction: column;
+  }
+}

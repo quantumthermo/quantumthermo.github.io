@@ -1,4 +1,5 @@
 .header .header-img {
+  width: 100%;
   height: 20rem;
   background: url('../../static/images/background.webp') center/cover no-repeat;
 }

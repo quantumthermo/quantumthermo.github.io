@@ -1,16 +1,17 @@
 import React from 'react'
-import { useRoutes, NavLink, useLocation } from 'react-router-dom'
+import { useRoutes, NavLink } from 'react-router-dom'
 import routes from '../../routes'
 import './index.css'
 
 export default function Main() {
   const element = useRoutes(routes)
-  const location = useLocation()
-  console.log(location);
+  // const location = useLocation()
+  // console.log(location);
+  // const [showMenu, setShowMenu] = useState(false);
   return (
     <main>
       <section className='header-info'>
-        <h1 id="title">Gentaro Watanabe group</h1>
+        <h1 id="title" className='title'>Gentaro Watanabe group</h1>
         <nav>
           <ul className="nav">
             <li><NavLink className='nav-item' to='/home'>HOME</NavLink></li>

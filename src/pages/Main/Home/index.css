@@ -1,3 +1,21 @@
 .home {
-  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+}
+.home a {
+  text-decoration: none;
+}
+.home .content {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.home .content img{
+  width: 30rem;
+  margin-bottom: 1rem;
+}
+.content .img-desc {
+  font-size: 1.2rem;
+  color: #2f3542;
 }

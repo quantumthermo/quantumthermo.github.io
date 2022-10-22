@@ -36,4 +36,4 @@ import Links from "../pages/Main/Links"
     element:  <Navigate to='/home' />
   }
 ]
-export default routes
+export default routes;

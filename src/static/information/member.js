@@ -1,4 +1,4 @@
-const member = [
+const members = [
   {
     id: '001',
     name: 'Guo-Hua Xu (徐国华)',
@@ -31,4 +31,6 @@ const member = [
     introduction: '',
     email: ''
   }
-]
+];
+
+ export { members };

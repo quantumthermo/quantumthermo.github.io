@@ -1,5 +1,5 @@
 import React from 'react'
-import Paper from '../../../components/Paper'
+import Paper from './components/Paper'
 import publication from '../../../static/information/publication'
 import './index.css'
 
@@ -13,17 +13,13 @@ export default function Publications() {
       <ul>
         {representative.map((paper,index) => <Paper key={paper.id} {...paper} index={index}/>)}
       </ul>
-      <hr />
       <p className='kind-title'>Submitted Papers</p>
-      <p>To Be Completed...</p>
       <ul>
-        {submitted.map(paper => <Paper key={paper.id} {...paper} />)}
+        {submitted.map((paper,index) => <Paper key={paper.id} {...paper} index={index}/>)}
       </ul>
-      <hr />
       <p className='kind-title'>Recent Papers</p>
-      <p>To Be Completed...</p>
       <ul>
-        {recent.map(paper => <Paper key={paper.id} {...paper} />)}
+        {recent.map((paper,index) => <Paper key={paper.id} {...paper} index={index}/>)}
       </ul>
     </section>
   )

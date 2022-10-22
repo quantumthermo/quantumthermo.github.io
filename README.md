@@ -1,6 +1,6 @@
-# 这是给Gentaro Wanatabe设计网页的源代码，适应react结合react-router。
+# 这是给Gentaro Wanatabe设计网页的源代码，使用react结合react-router。
 
-# 所有的数据都放在/src/static/information文件夹下，修改对应数据再发布，网页就会相应改变，其他源代码无需更改
+# 所有的静态数据都放在/src/static/information文件夹下，修改对应数据再发布，网页就会相应改变，其他源代码无需更改
 
 
 # This is a web page for Gentaro Wanatabe group, powered by React.

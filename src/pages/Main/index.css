@@ -14,6 +14,10 @@
 	font-family: 'Helvetica-Neue';
 	src: url('../../static/font/Helvetica-Neue-2.ttf') format('woff2');
 }
+@font-face {
+	font-family: 'LinLibertine-R-1';
+	src: url('../../static/font/LinLibertine-R-1.ttf') format('woff2');
+}
 main {
   position: relative;
   top: -6rem;
@@ -100,9 +104,42 @@ main {
   color: #ff4d4d;
 }
 .kind-title {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
   font-family: 'RobotoCondensed-3',Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: #636e72;
+  border-radius: 8px;
+  background: linear-gradient(to right, #dfe4ea 0, transparent 50%);
+}
+.show-button {
+  position: relative;
+}
+.mini-nav .nav{
+  position: absolute;
+  right: -10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 10rem;
+  background-color: rgba(255,255,255,0.7);
+  translate: translateX(-10rem);
+}
+.mini-nav .nav li {
+  padding: 1rem 0;
+  margin-top: 0rem;
+}
+
+
+@media screen and (max-width: 600px) {
+  .header-info{
+    position: sticky;
+    top: 0; 
+  }
+  .header-info #title {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    min-width: 30rem;
+  }
 }
