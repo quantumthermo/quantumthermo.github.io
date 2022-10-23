@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.94d3222e.css",
-    "main.js": "/static/js/main.45059cc2.js",
+    "main.css": "/static/css/main.028540dd.css",
+    "main.js": "/static/js/main.791c4783.js",
     "static/media/LinLibertine-R-1.ttf": "/static/media/LinLibertine-R-1.f92a89be4241d7c2a459.ttf",
     "static/media/Helvetica-Neue-2.ttf": "/static/media/Helvetica-Neue-2.eeb3ba23dddbf1117908.ttf",
     "static/media/home_pic1.jpg": "/static/media/home_pic1.bf644e68cac56171b4cf.jpg",
@@ -10,13 +10,16 @@
     "static/media/RobotoCondensed-Light-5.ttf": "/static/media/RobotoCondensed-Light-5.77d35921402cd156c96b.ttf",
     "static/media/background.webp": "/static/media/background.82f4cf22f4c3c9eb3741.webp",
     "static/media/Aqum-2-Classic-2.otf": "/static/media/Aqum-2-Classic-2.4e6cc3eca3a8bb1e2aaa.otf",
+    "static/media/qingzhu.png": "/static/media/qingzhu.b328fd5090c9414b9833.png",
     "static/media/physics.png": "/static/media/physics.48a57c364249aeb59205.png",
+    "static/media/xuesheng.svg": "/static/media/xuesheng.a142daa21e999494c45a72f269642628.svg",
+    "static/media/youxiang.svg": "/static/media/youxiang.ad4bd491881dfcb4ac1f1c4d38d75970.svg",
     "index.html": "/index.html",
-    "main.94d3222e.css.map": "/static/css/main.94d3222e.css.map",
-    "main.45059cc2.js.map": "/static/js/main.45059cc2.js.map"
+    "main.028540dd.css.map": "/static/css/main.028540dd.css.map",
+    "main.791c4783.js.map": "/static/js/main.791c4783.js.map"
   },
   "entrypoints": [
-    "static/css/main.94d3222e.css",
-    "static/js/main.45059cc2.js"
+    "static/css/main.028540dd.css",
+    "static/js/main.791c4783.js"
   ]
 }
