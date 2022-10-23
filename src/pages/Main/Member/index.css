@@ -56,7 +56,7 @@
 }
 .leader .name {
   flex: 1;
-  margin: 1rem 0;
+  margin-bottom: 1rem;
   font-size: 1.4rem;
   font-weight: bolder;
   color: #2f3542;
@@ -73,6 +73,25 @@
   font-size: 1.2rem;
   font-family: 'LinLibertine-R-1';
   color: #1e272e;
+}
+.leader-contact {
+  margin-top: 1rem;
+  color: #1e272e;
+}
+.leader-contact .email {
+  display: flex;
+  align-items: center;
+}
+.leader-contact .email span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: 'LinLibertine-R-1';
+  color: #2f3542;
+}
+.leader-contact .email-img {
+  display: inline;
+  margin-right: .5rem;
+  width: 1rem;
 }
 /* members */
 .group-members {
@@ -96,10 +115,16 @@
 .group-members .status {
   color: #636e72;
 }
-.group-members .email {
+.group-members .email, .group-members .status{
+  display: flex;
+  align-items: center;
   color: #747d8c;
 }
-
+.group-members .email-img,  .group-members .stu-img{
+  display: inline;
+  width: 1rem;
+  margin-right: .5rem;
+}
 /* 移动端适配 */
 @media screen and (max-width: 600px) {
   .leader {

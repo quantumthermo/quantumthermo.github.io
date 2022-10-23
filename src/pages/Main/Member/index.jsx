@@ -1,5 +1,7 @@
 import React from 'react'
 import mentorAvatar from '../../../static/images/mentor-avatar.jpg'
+import emailImg from '../../../static/images/youxiang.svg'
+import stuImg from '../../../static/images/xuesheng.svg'
 import { members } from '../../../static/information/member'
 import './index.css'
 
@@ -23,6 +25,13 @@ export default function Member() {
               <div className='filed'>· Theory of ultracold atomic gases</div>
               <div className='filed'>· Quantum control and quantum measurements</div>
             </div>
+            <div className='leader-contact'>
+              <div>Contact:</div> 
+              <div className='email'>
+                <img className='email-img' src={ emailImg } alt="email" />
+                <span>gentaro@zju.edu.cn</span>
+              </div> 
+            </div>
           </article>
         </div>
         <h2 className='outline'>
@@ -33,8 +42,15 @@ export default function Member() {
             <div className='member-item' key={name}>
               <h2 className='member-name'>{name}</h2>
               <div className='info'>
-                <div className='status'><span>Status: </span>{status}</div>
-                {email &&<div className='email'><span>Email: </span>{email}</div>}
+                <div className='status'>
+                <img className='stu-img' src={ stuImg } alt="email" />
+                  <span>{status}</span>
+                  </div>
+                {email && 
+                <div className='email'>
+                  <img className='email-img' src={ emailImg } alt="email" />
+                  <span>{email}</span>
+                </div>}
               </div>
             </div>
           )) }

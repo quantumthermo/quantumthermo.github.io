@@ -19,3 +19,14 @@
   font-size: 1.2rem;
   color: #2f3542;
 }
+.news-list .news-item {
+  /* display: flex; */
+  align-items: center;
+  color: #2f3542;
+  font-size: 1.2rem;
+}
+.news-list .news-item .qingzhu-img {
+  display: inline;
+  width: 1.2rem;
+  margin-right: .5rem;
+}

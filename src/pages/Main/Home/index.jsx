@@ -1,5 +1,6 @@
 import React from 'react'
 import HomePic1 from '../../../static/images/home_pic1.jpg'
+import qingzhu from '../../../static/images/qingzhu.png'
 import './index.css'
 
 export default function Home() {
@@ -14,6 +15,12 @@ export default function Home() {
         </a>
       </div>
       <p className='kind-title'>Recent News</p>
+      <div className='news-list'>
+        <div className='news-item'>
+          <img className='qingzhu-img' src={qingzhu} alt="qingzhu" />
+          <span>Chao Jiang (姜超) and Guitao Lyu (吕桂桃) obtained doctorate degrees. Congratulations!</span>
+        </div>
+      </div>
     </section>
   )
 }
