@@ -1,3 +1,12 @@
 .links {
   height: 600px;
 }
+.links a {
+  font-size: 1.2rem;
+  color: #576574;
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+.links a:hover {
+  color: #2e86de;
+}
