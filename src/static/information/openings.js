@@ -46,4 +46,4 @@ const openings = {
     }
   ]
 }
-export default openings 
+export default openings;

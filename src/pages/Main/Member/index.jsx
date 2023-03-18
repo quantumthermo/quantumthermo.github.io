@@ -1,14 +1,29 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import mentorAvatar from '../../../static/images/mentor-avatar.jpg'
 import emailImg from '../../../static/images/youxiang.svg'
 import stuImg from '../../../static/images/xuesheng.svg'
-import { members } from '../../../static/information/member'
+import members from '../../../static/information/member'
 import './index.css'
 
 export default function Member() {
+
+  const [people, setPeople] = useState(members);
+
+  useEffect(() => {
+    fetch('https://oldfish1996.github.io/quantumthermo-data/members.json')
+    .then(res => res.json())
+    .then(json => {
+      const {members: fecthMembers} = json;
+      setPeople(fecthMembers)
+      // console.log(fecthMembers);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+  }, []);
+
   return (
     <>
-      {/* <p className='nav-item-title'>MEMBER</p> */}
       <section className='member-wrapper'>
         <h2 className='outline'>
           <span>Group Leader</span>
@@ -38,7 +53,7 @@ export default function Member() {
           <span>Group Members</span>
         </h2>
         <div className='group-members'>
-          { members.map(({name, status, email}) => (
+          { people.map(({name, status, email}) => (
             <div className='member-item' key={name}>
               <h2 className='member-name'>{name}</h2>
               <div className='info'>

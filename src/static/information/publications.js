@@ -201,4 +201,5 @@ const publications = {
     }
   ]
 }
-export default publications
+export default publications;
+

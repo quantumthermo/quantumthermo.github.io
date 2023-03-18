@@ -24,6 +24,7 @@
   align-items: center;
   color: #2f3542;
   font-size: 1.2rem;
+  margin-bottom: 12px;
 }
 .news-list .news-item .qingzhu-img {
   display: inline;

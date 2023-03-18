@@ -1,13 +1,10 @@
-import React from 'react'
-import { useRoutes, NavLink } from 'react-router-dom'
-import routes from '../../routes'
-import './index.css'
+import React from 'react';
+import { useRoutes, NavLink } from 'react-router-dom';
+import routes from '../../routes';
+import './index.css';
 
 export default function Main() {
-  const element = useRoutes(routes)
-  // const location = useLocation()
-  // console.log(location);
-  // const [showMenu, setShowMenu] = useState(false);
+  const element = useRoutes(routes); 
   return (
     <main>
       <section className='header-info'>

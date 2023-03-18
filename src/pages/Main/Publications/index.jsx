@@ -1,11 +1,28 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import Paper from './components/Paper'
-import publication from '../../../static/information/publication'
+import publications from '../../../static/information/publications'
 import './index.css'
 
 export default function Publications() {
-  const { representative, submitted, recent } = publication
-  // console.log(representative, submitted, recent);
+  
+  const [pubs, setPubs] = useState(publications);
+  
+  const { representative, submitted, recent } = pubs;
+
+  useEffect(() => {
+    fetch('https://oldfish1996.github.io/quantumthermo-data/publications.json')
+    .then(res => res.json())
+    .then(json => {
+      const {publications: fetchPublications} = json;
+      console.log(fetchPublications);
+      setPubs(fetchPublications)
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+  }, []);
+
+
   return (
     <section className='publications'>
       <p className='nav-item-title'>PUBLICATIONS</p>

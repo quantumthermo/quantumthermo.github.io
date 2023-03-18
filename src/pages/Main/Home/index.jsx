@@ -1,9 +1,25 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import HomePic1 from '../../../static/images/home_pic1.jpg'
-import qingzhu from '../../../static/images/qingzhu.png'
+import recent_news from '../../../static/information/recent_news'
 import './index.css'
 
 export default function Home() {
+
+  const [news, setNews] = useState(recent_news);
+
+  useEffect(() => {
+    fetch('https://oldfish1996.github.io/quantumthermo-data/recent_news.json')
+    .then(res => res.json())
+    .then(json => {
+      const {recent_news: fecthNews} = json;
+      setNews(fecthNews)
+      // console.log(fecthNews);
+    })
+    .catch((err) => {
+      console.error(err);
+    });
+  }, []);
+
   return (
     <section className='home'>
       <p className='nav-item-title'>HOME</p>
@@ -16,10 +32,13 @@ export default function Home() {
       </div>
       <p className='kind-title'>Recent News</p>
       <div className='news-list'>
-        <div className='news-item'>
-          <img className='qingzhu-img' src={qingzhu} alt="qingzhu" />
-          <span>Chao Jiang (姜超) and Guitao Lyu (吕桂桃) obtained doctorate degrees. Congratulations!</span>
-        </div>
+        {
+          news.map((item, idx) => (
+            <div className='news-item' key={idx}>
+              <span>{item.content}</span>
+            </div>
+          ))
+        }
       </div>
     </section>
   )
